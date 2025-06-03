@@ -1,0 +1,31 @@
+import React from "react";
+
+const Contact = () => {
+  return (
+    <div className="bg-[#0f1b14]  py-20 text-[#f5f5f5] font-sans relative">
+      {/* Two-tone grid background */}
+      <div className="absolute inset-0 grid grid-cols-12 pointer-events-none z-0">
+        <div className=" col-span-7"></div>
+        <div className=" col-span-5"></div>
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 max-w-[900px] px-4 mx-auto text-center">
+        <h1 className="text-6xl font-extrabold leading-tight tracking-tight">
+          Let's Work Together
+        </h1>
+
+        <div className="flex justify-center mt-8 gap-6 flex-wrap">
+          <button className="px-10 py-5 bg-green-500 hover:bg-green-600 text-black font-bold rounded-2xl shadow-lg uppercase tracking-wider border border-white">
+            Contact Us
+          </button>
+          <button className="px-10 py-5 bg-green-500 hover:bg-green-600 text-black font-bold rounded-2xl shadow-lg uppercase tracking-wider border border-white">
+            Book a Call
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
