@@ -2,8 +2,8 @@ import React from "react";
 
 const Results = () => {
   return (
-    <div className="py-40 bg-[#162219]">
-      <div className=" py-10 bg-[#1e2b23] text-white">
+    <div className="py-40 bg-[#0F172A]">
+      <div className=" py-10 bg-[#1E293B] text-white">
         <h1 className=" md:text-8xl text-5xl font-extrabold  font-sans text-center my-8">
           The Results
         </h1>
