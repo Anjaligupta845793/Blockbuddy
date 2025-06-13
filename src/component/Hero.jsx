@@ -9,7 +9,7 @@ const Home = () => {
         <div className="bg-[#1E293B] col-span-5"></div>
       </div>
 
-      <div className="relative z-10 max-w-[1260px] mx-auto flex md:flex-row flex-col gap-10 px-4">
+      <div className="max-w-[1260px] mx-auto px-3 flex flex-col-reverse md:flex-row md:gap-0 gap-8 md:py-24 py-16">
         {/* Text Section */}
         <div className="md:w-[60%] space-y-8">
           <h1 className="text-5xl md:text-7xl font-extrabold leading-tight tracking-tight">

@@ -1,6 +1,6 @@
 import Navbar from "@/component/Navbar";
 import Hero from "@/component/Hero";
-import Services from "@/component/Services";
+import Services from "@/component/Servics";
 import Results from "@/component/Results";
 import Partener from "@/component/Partener";
 import Creator from "@/component/Creator";

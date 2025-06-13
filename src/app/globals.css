@@ -1,5 +1,22 @@
 @import "tailwindcss";
 
+/* styles/globals.css */
 :root {
-  --background: #fff7e9;
+  /* fallback values */
+  --primary: #1e40af;
+  --secondary: #f59e0b;
+  --text-color: #111827;
+}
+
+.theme-a {
+  --primary: #000000; /* blue */
+  --secondary: #18cb96; /* amber */
+  --text-color: #2f6df3;
+  --secondary-text-color: #c6cdca;
+}
+
+.theme-b {
+  --primary: #16a34a; /* green */
+  --secondary: #f97316; /* orange */
+  --text-color: #f0fdf4;
 }
